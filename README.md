@@ -1,68 +1,90 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Dad Jokes
 
-## Available Scripts
+This is a very simple React App, bootstrapped with [Create React App](https://github.com/facebook/create-react-app), utilising the [icanhazdadjoke API](https://icanhazdadjoke.com/api) to produce random Dad Jokes.
+
+**Preview:** [dan-jokes.netlify.app](https://dan-jokes.netlify.app/) *(Last checked: 4/06/20 13:00)*
+
+## Stack
+* ReactJS
+* Bootstrap
+
+## Installation
+
+### Clone Project
+
+Via your command line tool, navigate to the root of your 'sites' directory. This will be the location you store your projects.
+
+Paste the following command and hit `enter`.
+
+```
+git clone git@github.com:danwarman/dad-jokes.git
+```
+
+### Go into the project
+Via your command line tool, navigate into the root of the calculator project.
+
+```
+cd dad-jokes
+```
+
+### Install the app
+As this is a create-react-app, it uses `yarn`.
+
+`yarn` is a node package manager. You must ensure you have both `Node.js` and `yarn` installed in order to install the app.
+
+#### Check you have `node.js` and `yarn` installed
+
+To check if you have node.js installed, run the following command.
+
+```
+node -v
+```
+
+To check if you have yarn installed, run the following command.
+
+```
+yarn -v
+```
+
+For instructions on how to install these if they're missing, go to [https://classic.yarnpkg.com/en/docs/install#mac-stable](https://classic.yarnpkg.com/en/docs/install#mac-stable).
+
+#### Installing the app
+Run the following command.
+
+```
+yarn
+```
+
+## Run the app
+### Development
 
 In the project directory, you can run:
 
-### `yarn start`
+```
+yarn start
+```
 
-Runs the app in the development mode.<br />
+This runs the app in the development mode.
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
+**Note:** If port `3000` is unavilable, it will prompt you to request another port.
+
+The page will reload if you make edits.
+
 You will also see any lint errors in the console.
 
-### `yarn test`
+### Production
+In the project directory, you can run:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+yarn build
+```
 
-### `yarn build`
+This builds the app for production to the `build` folder.
 
-Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+The build is minified and the filenames include the hashes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+The app is ready to be deployed!
